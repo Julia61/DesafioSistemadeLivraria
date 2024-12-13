@@ -10,9 +10,11 @@ public class Principal {
 
         Livro livro01 = new Livro("Harry Potter", new Autor("J. K. Rowling"));
         Livro livro02 = new Livro("1984", new Autor("George Orwell"));
+        Livro livro03 = new Livro("É assim que acaba", new Autor("Colleen Hoover"));
 
         biblioteca.adicionarLivro(livro01);
         biblioteca.adicionarLivro(livro02);
+        biblioteca.adicionarLivro(livro03);
 
         do {
             if (biblioteca.todosLivrosEmprestados()) {
